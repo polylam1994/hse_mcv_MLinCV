@@ -34,7 +34,7 @@ pytest
 
 ![image](https://user-images.githubusercontent.com/59043071/171131131-d121e2f5-37be-4bde-bfa3-8e8fe733b0df.png)
 
-##Set up CI pipeline
+## Set up CI pipeline
 
 For auto build and test, set up testPush.yml .
 For auto testing pull request, set up test_Pull_Request.yml .
