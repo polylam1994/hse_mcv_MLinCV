@@ -18,12 +18,6 @@ python -m venv env
 ---Activate Python virtual environment---
 .\env\Scripts\activate
 
----install gitpython---
-pip install gitpython
-
----Install the package---
-pip install git+https://github.com/polylam1994/hse_mcv_MLinCV@task-2.1
-
 ---Install all the dependencies for development---
 pip install -r requirements.txt
 pip install -r requirements_dev.txt
