@@ -33,3 +33,5 @@ pip install git+https://github.com/polylam1994/hse_mcv_MLinCV@task-1.2
 ---Run demo---
 from hse_mcv_dbface import demo
 demo.image_demo()
+
+![image](https://user-images.githubusercontent.com/59043071/171104175-17a8d9df-eba3-4886-b36f-d368b7f67576.png)
