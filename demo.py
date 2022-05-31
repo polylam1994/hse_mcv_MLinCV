@@ -112,8 +112,8 @@ def image_demo():
     exec_net = ie.load_network(network=net, device_name='CPU')
 
 
-    jpg=input("Enter .jpg .jpeg file name under /image directory: ")
-    frame=common.imread("datas/"+jpg)
+    jpg=input("Enter .jpg .jpeg file name under /images directory: ")
+    frame=common.imread("images/"+jpg)
 
     img = cv2.resize(frame, (640,480))
 
