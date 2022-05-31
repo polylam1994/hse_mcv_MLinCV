@@ -23,10 +23,10 @@ def prepare_image_names(list_of_short_names):
 def test_regression(image_name):
     first_result = demo.image_demo(image_name, show_image=False)
     second_result = demo.image_demo(image_name, show_image=False)
-    assert np.array_equal(first_result,second_result)
+    assert np.array_equal(first_result, second_result)
 
 
 # A “no error” test with big image, small image
-@pytest.mark.parametrize("image_name", prepare_image_names(["small.jpg","big.jpg"]))
+@pytest.mark.parametrize("image_name", prepare_image_names(["small.jpg", "big.jpg"]))
 def test_for_errors_on_images_of_different_sizes(image_name):
     demo.image_demo(image_name, show_image=False)
