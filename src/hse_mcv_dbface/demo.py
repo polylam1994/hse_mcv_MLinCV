@@ -103,7 +103,7 @@ def detect(exec_net, input_blob, image, threshold=0.4, nms_iou=0.5):
     return nms(objs, iou=nms_iou)
 
 
-def image_demo(jpg,show_image=True):
+def image_demo(jpg, show_image=True):
 
     # args = build_argparser().parse_args()
     # model_xml = "openvino/480x640/FP32/dbface_mbnv3_480x640_opt.xml" #<--- CPU
@@ -115,7 +115,7 @@ def image_demo(jpg,show_image=True):
     input_blob = next(iter(net.input_info))
     exec_net = ie.load_network(network=net, device_name="CPU")
 
-    #jpg = input("Enter .jpg .jpeg file name absolute path: ")
+    # jpg = input("Enter .jpg .jpeg file name absolute path: ")
 
     frame = cv2.imread(jpg)
 
@@ -125,12 +125,11 @@ def image_demo(jpg,show_image=True):
 
     for obj in objs:
         common.drawbbox(img, obj)
-        
-    if show_image==True:
+
+    if show_image:
         cv2.imshow("demo", img)
         cv2.waitKey()
         cv2.destroyAllWindows()
-        
 
 
 if __name__ == "__main__":
