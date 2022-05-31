@@ -19,12 +19,20 @@ python -m venv env
 .\env\Scripts\activate
 
 ---Install all the dependencies for development---
+pip install -r requirements.txt
 pip install -r requirements_dev.txt
+
+---Install the package---
+pip install git+https://github.com/polylam1994/hse_mcv_MLinCV@task-2.1
 
 
 ## Running the checks
 ---Activate Python virtual environment if you havn't---
 .\env\Scripts\activate
+
+---Install the git hook scripts---
+git init
+pre-commit install
 
 ---Run checks---
 pre-commit run --all-files
