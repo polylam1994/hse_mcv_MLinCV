@@ -1,4 +1,4 @@
-name: Building Python package
+name: build Python package
 
 on:
   push:
@@ -20,13 +20,13 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
+        python -m pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-        if [ -f requirements_dev.txt ]; then pip install -r requirements_dev.txt; fi
         pip install -e .
-    - name: Run style checks
+    - name: fix style with flake8
       run: |
-        pre-commit install
-        pre-commit run -a
-    - name: Pytest test
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+        flake8 . --count --exit-zero --statistics
+    - name: Test with pytest
       run: |
         pytest
