@@ -1,4 +1,4 @@
-name: merge request
+name: test and build on push
 
 on: [push]
 
