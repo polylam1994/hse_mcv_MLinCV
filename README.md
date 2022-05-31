@@ -22,7 +22,7 @@ python -m venv env
 pip install -r requirements.txt
 pip install -r requirements_dev.txt
 
-
+## Run pytest
 ---Activate Python virtual environment if you havn't---
 .\env\Scripts\activate
 
