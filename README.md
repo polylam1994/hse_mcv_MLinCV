@@ -28,3 +28,5 @@ pip install -r requirements_dev.txt
 
 ---Run checks---
 pre-commit run --all-files
+
+![Screenshot_2](https://user-images.githubusercontent.com/59043071/171103906-8c6aa086-4522-4f34-b1c4-f98b802577b7.jpg)
