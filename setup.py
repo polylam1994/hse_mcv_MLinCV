@@ -21,7 +21,7 @@ setuptools.setup(
     description="A small example package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/polylam1994/polylam1994test1",
+    url="https://github.com/polylam1994/hse_mcv_MLinCV",
     project_urls={
     },
     classifiers=[
