@@ -133,5 +133,6 @@ def image_demo(jpg, show_image=True):
 
     return (img)
 
+
 if __name__ == "__main__":
     image_demo()
