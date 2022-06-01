@@ -130,7 +130,7 @@ def image_demo(jpg, show_image=True):
         cv2.imshow("demo", img)
         cv2.waitKey()
         cv2.destroyAllWindows()
-    
+
     return (img)
 
 if __name__ == "__main__":
