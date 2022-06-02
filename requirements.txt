@@ -2,3 +2,5 @@ numpy==1.18.1
 opencv_python==4.5.4.58
 torch==1.11.0
 openvino==2022.1.0
+streamlit==1.2.0
+protobuf==3.20.0

@@ -117,9 +117,9 @@ def image_demo(jpg, show_image=True):
 
     # jpg = input("Enter .jpg .jpeg file name absolute path: ")
 
-    frame = cv2.imread(jpg)
+    # frame = cv2.imread(jpg)
 
-    img = cv2.resize(frame, (640, 480))
+    img = cv2.resize(jpg, (640, 480))
 
     objs = detect(exec_net, input_blob, img)
 
@@ -130,7 +130,7 @@ def image_demo(jpg, show_image=True):
         cv2.imshow("demo", img)
         cv2.waitKey()
         cv2.destroyAllWindows()
-        
+
     return (img)
 
 
