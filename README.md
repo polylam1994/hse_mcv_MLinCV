@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a HSE MCV week2 task 2 - Setup CI pipeline
+This is a HSE MCV week3 task 2 - Setup web demo
 
 ## Installation
 
@@ -25,11 +25,6 @@ pip install -r requirements_dev.txt
 ---Install the package---
 pip install .
 
-## Run pytest
----Activate Python virtual environment if you havn't---
-.\env\Scripts\activate
+## Setup Docker image
 
----Run Pytest---
-pytest
-
-![image](https://user-images.githubusercontent.com/59043071/171131131-d121e2f5-37be-4bde-bfa3-8e8fe733b0df.png)
+## Run container
