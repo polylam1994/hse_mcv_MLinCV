@@ -20,7 +20,7 @@ setuptools.setup(
         "openvino==2022.1.0",
     ],
     name="hse_mcv_dbface",
-    version="0.0.3",
+    version="0.0.4",
     author="polylam1994",
     author_email="polylam1994@gmail.com",
     description="A small example package",
