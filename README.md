@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a HSE MCV week3 task 2 - Setup web demo
+This is a HSE MCV week3 task - Setup web demo
 
 ## Run container
 ```
