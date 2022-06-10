@@ -4,22 +4,11 @@
 
 This is a HSE MCV week3 task 2 - Setup web demo
 
-## Build package
----install build---
-pip install build
-
----Change to project directory--- 
-cd paste/your/directory/here
-
----get built distribution---
-python -m build
-
-## Setup Docker image
-
-docker build -t web_demo .
-
 ## Run container
-docker run -p 8501:8501 web_demo
+```
+docker run -p 8501:8501 ghcr.io/polylam1994/web_demo_june10:latest
+```
+
 ## Web demo
 In broswer, go to http://localhost:8501/
 
