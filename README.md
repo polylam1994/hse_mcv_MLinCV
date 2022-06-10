@@ -53,7 +53,7 @@ pytest
 ## Set up CI pipeline
 
 For auto build and test, set up testPush.yml .
-For auto testing pull request, set up test_Pull_Request.yml .
+For auto testing pull request, set up test_build_on_push.yml .
 to make it work, go to Settings -> Branches -> add rule.
 
 ![image](https://user-images.githubusercontent.com/59043071/171220219-472968a7-de15-4e9e-a01f-fab4eda682a3.png)
