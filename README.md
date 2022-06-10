@@ -4,9 +4,17 @@
 
 This is a HSE MCV week3 task 2 - Setup web demo
 
-## Setup Docker image
----Change to project directory---
+## Build package
+---install build---
+pip install build
+
+---Change to project directory--- 
 cd paste/your/directory/here
+
+---get built distribution---
+python -m build
+
+## Setup Docker image
 
 docker build -t web_demo .
 
